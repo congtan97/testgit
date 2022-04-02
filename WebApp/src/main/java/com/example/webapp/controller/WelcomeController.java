@@ -9,6 +9,10 @@ public class WelcomeController {
     public String getWelcome() {
         return "welcome";
     }
+    @GetMapping("/hello")
+    public String getHello() {
+        return "hello";
+    }
 
     @GetMapping("/hi")
     public String getHi() {
